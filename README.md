@@ -6,17 +6,20 @@ Rooms that are diagonal from each other are not considered connected.
 
 Examples:  
 
+(X = Infection, O = No infection)
+
+
 Outbreak  
-|X|X|X| | |   
-| | |X|X| |  
-| | | | | |  
+|X|X|X|O|O|   
+|O|O|X|X|O|  
+|O|O|O|O|O|  
 
 No Outbreak  
-| |X| | | | |  
-| | |X| | | |  
-| | | |X| | |  
-| | | | |X| |  
-| | | | | |X|  
+|O|X|O|O|O|O|  
+|O|O|X|O|O|O|  
+|O|O|O|X|O|O|  
+|O|O|O|O|X|O|  
+|O|O|O|O|O|X|  
 
 Code: 
 
